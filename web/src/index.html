@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" id="savetransaction" class="flex flex-col w-screen h-screen justify-center items-center">
+      <div class="flex flex-col gap-5 text-center text-xl mb-5">
+        <label for="descripciondelatransaccion" class="text-black rounded-lg border-2 border-blue-500 bg-gray-300">Descripcion: </label>
+        <input
+          class="border-2 border-cyan-500 placeholder:text-green-700 rounded-lg text-center bg-green-200 focus:border-green-300 selection:border-green-300 font-light"
+          type="text"
+          id="descripciondelatransaccion"
+          placeholder=""
+        />
+      </div>
+      <br />
+      <div class="flex flex-col gap-5 text-center text-xl mb-5">
+        <label for="Precio" class="text-black rounded-lg border-2 border-blue-500 bg-gray-300">Precio: </label>
+        <input
+          class="border-2 border-cyan-500 placeholder:text-green-700 rounded-lg text-center bg-green-200 focus:border-green-300 selection:border-green-300 font-light"
+          type="text"
+          id="Precio"
+          placeholder=""
+        />
+      </div>
+      <br />
+      <div class="flex flex-col gap-5 text-center text-xl mb-5">
+        <button class="border-2 rounded-lg border-green-400 bg-green-200 p-2 text-center text-zinc-950 transition-all hover:-translate-y-1">Guardar</button>
+      </div>
+    </form>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
